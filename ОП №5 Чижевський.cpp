@@ -21,7 +21,7 @@ int main()
 	case 'G': cout << "Соль\n"; break;
 	case 'A': cout << "Ля\n"; break;
 	case 'H': cout << "Сі\n"; break;
-	case '#': cout << "Работа с ЛР-5 ОПИ" << endl; break;
+	case '#': cout << "Работа с ЛР-5 ОПИ Чижевський" << endl; break;
 	default: cout << "Такої ноти не існує" << endl; break;
 	}
 	system("pause");
