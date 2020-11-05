@@ -23,7 +23,7 @@ int main()
 	do
 	{
 		y = pow(x, 5) + 3 * tan(x*x) + 2;
-		cout << setw(10) << "x=" << x << setw(10) << "y=" << y << endl;
+		cout << setw(10) << "Відповідь: x=" << x << setw(10) << "Відповідь: y=" << y << endl;
 		x += h;
 	} while (x <= (x2 + h / 2));
 	system("pause");
